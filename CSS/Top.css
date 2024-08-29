@@ -1,0 +1,134 @@
+.topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: -10%;
+    margin-top: -10px;
+    max-width: 150%;
+    max-height: 0%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.logo {
+    margin-right: 0;
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 200px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: -28%;
+}
+
+.search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -40px;
+    font-size: 16px;
+    color: #000;
+}
+
+.navigation {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: -60px;
+    padding: 0;
+}
+
+.navigation li {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.barra {
+    width: 20px;
+    height: 330px;
+    background-color: #d9d9d9;
+    margin-top: -15%;
+    margin-right: -60%;
+    transform: rotate(138deg);
+    margin-bottom: -3.28%;
+}
+
+.barra2 {
+    width: 20px;
+    height: 500px;
+    background-color: #d9d9d9;
+    margin-top: -13%;
+    margin-left: -70%;
+    transform: rotate(45deg);
+    margin-bottom: -14.15%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .search-bar {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 80px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .search-btn {
+        font-size: 14px;
+    }
+}

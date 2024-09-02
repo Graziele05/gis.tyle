@@ -98,14 +98,50 @@
     margin-bottom: -14.15%;
 }
 
+@media (max-width: 1024px) {
+    .topo {
+        height: 150px;
+    }
+
+    .container {
+        padding: 10px;
+        width: 100px;
+    }
+    
+
+
+    .barra {
+        margin-top: -25%;
+    }
+
+    .barra2 {
+        margin-top: -25%;
+
+    }
+
+    img {
+    margin-top: -0%;
+    }
+
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 120px;
     }
 
     .search-bar {
-        margin-top: 10px;
         width: 100%;
+        margin: 10px 0;
+    }
+
+    .search-bar input {
+        font-size: 14px;
     }
 
     .navigation ul {
@@ -123,6 +159,10 @@
         width: 80px;
     }
 
+    .search-bar {
+        width: 100%;
+    }
+
     .search-bar input {
         width: 100%;
         font-size: 14px;
@@ -130,5 +170,23 @@
 
     .search-btn {
         font-size: 14px;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .navigation li {
+        margin-bottom: 10px;
+    }
+
+    .barra {
+        
+    }
+
+    .barra2 {
+        display: none;
     }
 }

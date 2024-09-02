@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Carregar os componentes HTML
     loadHTML('components/top.html', 'top');
-    loadHTML('components/category.html', 'Category'); // Note a correspondência com o ID 'Category'
+    loadHTML('components/category.html', 'Category');
+    loadHTML('components/bestsellers.html', 'bestsellers');
     loadHTML('components/rodape.html', 'rodape');
 });

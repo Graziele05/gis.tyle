@@ -1,3 +1,64 @@
-.bestsellers{
-background-color: black;
+
+.fundo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+.gallery-container h2{
+    color: #eee;
+}
+
+
+.gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #eee;
+}
+
+.info {
+    padding: 15px;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.info p {
+    margin: 5px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
 }

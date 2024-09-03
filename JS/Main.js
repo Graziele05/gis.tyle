@@ -13,5 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     loadHTML('components/top.html', 'top');
     loadHTML('components/category.html', 'Category');
     loadHTML('components/bestsellers.html', 'bestsellers');
+    loadHTML('components/product-gallery.html', 'product-gallery');
     loadHTML('components/rodape.html', 'rodape');
 });

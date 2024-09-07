@@ -1,9 +1,13 @@
+@font-face {
+    font-family: 'Newt Serif';
+    src: url('/Public/Font/newt-serif/NewtSerif-Italic.otf') format('truetype');
+  }
 
 .fundo {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000000;
+    font-family:  'Newt Serif', serif;
 }
 .gallery-container h2{
     color: #eee;
@@ -37,6 +41,12 @@ h1 {
     text-align: center;
     text-decoration: none; 
     color: inherit; 
+    transition: box-shadow 0.3s;
+}
+
+.gallery-item:hover{
+    box-shadow: 0 13px 16px rgba(0, 0, 0, 0.637);
+    transform: scale(1.1);
 }
 
 .gallery-item img {

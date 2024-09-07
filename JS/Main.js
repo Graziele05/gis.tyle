@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Função para carregar o conteúdo HTML externo
+    //carrega o conteúdo HTML externo
     function loadHTML(file, elementId) {
         fetch(file)
             .then(response => response.text())
@@ -10,9 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Carregar os componentes HTML
-    loadHTML('components/top.html', 'top');
-    loadHTML('components/category.html', 'Category');
-    loadHTML('components/bestsellers.html', 'bestsellers');
-    loadHTML('components/product-gallery.html', 'product-gallery');
-    loadHTML('components/rodape.html', 'rodape');
+    loadHTML('/components/top.html', 'top');
+    loadHTML('/components/category.html', 'Category');
+    loadHTML('/components/bestsellers.html', 'bestsellers');
+    loadHTML('/components/product-gallery.html', 'product-gallery');
+    loadHTML('/components/products/description-product1.html', 'description-product1');
+    loadHTML('/components/rodape.html', 'rodape');
 });

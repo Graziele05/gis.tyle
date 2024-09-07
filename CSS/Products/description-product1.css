@@ -1,0 +1,20 @@
+.body-product{
+    background-color: #ffffff;
+    margin-top: 20%;
+    width: 100%;
+    display: flex;
+}
+.photos{
+display: flex;
+flex-direction: column;
+}
+
+.photos img{
+width: 90px;
+margin-left: 12%;
+margin-bottom: 8%;
+}
+
+.photo-icon{
+margin-left: 1%;
+}

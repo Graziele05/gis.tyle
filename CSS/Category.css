@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 
 .category {
@@ -77,9 +76,55 @@ a {
     color: #03030000;
 }
 
-h2{
+h2 {
     font-family: "Baskervville", serif;
     font-style: italic;
     font-weight: 400;
     font-size: 35PX;
+}
+
+@media (max-width: 400px) {
+    .category {
+        width: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 20px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 1633px) {
+    .category {
+        margin-top: 22%;
+        max-width: 880px;
+        max-height: 150px;
+        margin-bottom: 2%;
+        margin-left: 22%;
+    }
+
+    .grid-size {
+        margin-left: 5.5%;
+    }
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4,
+    .grid5,
+    .grid6 {
+        min-width: 100px;
+
+    }
+
+
+
 }

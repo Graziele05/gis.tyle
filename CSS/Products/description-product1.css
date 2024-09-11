@@ -1,20 +1,104 @@
-.body-product{
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.body-product {
     background-color: #ffffff;
     margin-top: 20%;
-    width: 100%;
+    width: 50px;
     display: flex;
-}
-.photos{
-display: flex;
-flex-direction: column;
-}
-
-.photos img{
-width: 90px;
-margin-left: 12%;
-margin-bottom: 8%;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-bottom: 1%;
 }
 
-.photo-icon{
-margin-left: 1%;
+.photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.photos img {
+    width: 75px;
+    margin-left: 12%;
+    margin-bottom: 8%;
+}
+
+.photo-icon img {
+    margin-left: 2%;
+    width: 199px;
+}
+
+.price {
+    font-weight: bold;
+    color: #317904;
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: -25px;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.selected-quantities {
+    margin-top: -5%;
+}
+
+p input {
+    margin-top: -25px;
+    width: 32px;
+    height: 25px;
+    color: #ffffff;
+    background-color: black;
+}
+
+.name-product {
+    display: flex;
+    flex-direction: column;
+    margin-left: 51px;
+    margin-top: -1%;
+
+}
+
+.marca-info p {
+    display: flex;
+    flex-direction: unset;
+    margin-top: 5%;
+}
+
+.log-marca img {
+    width: 50px;
+}
+
+.button-comprar{
+    margin-left: 30%;
+}
+.button-comprar img:hover{
+   transform: scale(1.1);
+  
+}
+
+.barr {
+    background-color: #d9d9d9;
+    width: 20px;
+    margin-left: 15%;
+}
+
+@media (max-width: 400px) {}
+
+@media (max-width: 768px) {}
+
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1633px) {
+    .body-product {
+        margin-top: 21%;
+        width: 96%;
+        margin-left: 2%;
+
+    }
 }

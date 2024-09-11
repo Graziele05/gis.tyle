@@ -85,10 +85,11 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    
+
 }
-.navigation a:hover{
-transform: scale(1.1);
+
+.navigation a:hover {
+    transform: scale(1.1);
 
 }
 
@@ -99,7 +100,7 @@ transform: scale(1.1);
     margin-top: -15%;
     margin-right: -72%;
     transform: rotate(138deg);
- margin-bottom: -3.9%;
+    margin-bottom: -3.9%;
 }
 
 .barra2 {
@@ -110,98 +111,54 @@ transform: scale(1.1);
     margin-left: -70%;
     transform: rotate(45deg);
     margin-bottom: -3%;
-   
+
 }
 
-@media (max-width: 1024px) {
-    .topo {
-        height: 150px;
-    }
-
+@media (max-width: 400px) {
     .container {
-        padding: 10px;
-        width: 100px;
+        max-width: 200px;
     }
-    
-
-
-    .barra {
-        margin-top: -25%;
-    }
-
-    .barra2 {
-        margin-top: -25%;
-
-    }
-
-    img {
-    margin-top: -0%;
-    }
-
 }
 
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo img {
-        width: 120px;
-    }
-
-    .search-bar {
-        width: 100%;
-        margin: 10px 0;
-    }
-
-    .search-bar input {
-        font-size: 14px;
-    }
-
-    .navigation ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navigation li {
-        margin-bottom: 10px;
+        max-width: 20px;
     }
 }
 
-@media (max-width: 480px) {
-    .logo img {
-        width: 80px;
-    }
 
-    .search-bar {
-        width: 100%;
+@media (max-width: 992px) {
+    .container {
+        max-width: 970px;
     }
+}
 
-    .search-bar input {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .search-btn {
-        font-size: 14px;
-    }
-
-    .navigation ul {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .navigation li {
-        margin-bottom: 10px;
-    }
-
-    .barra {
+@media (max-width: 1633px) {
+    .container {
+        max-width: 1140px;
         
     }
-
-    .barra2 {
-        display: none;
+    .logo img{
+        width: 120px;
+        margin-top: 5%;
     }
+
+    .barra{
+        margin-top: -21%;
+        margin-bottom: -29px;
+    }
+    
+    .barra2 {
+        margin-top: -19%;
+        margin-bottom: -59px;
+    }
+    .search-bar{
+        margin-top: 2.3%;
+    }
+
+    .navigation{
+margin-top: 2.5%;
+    }
+
+
 }

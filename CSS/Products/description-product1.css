@@ -2,8 +2,8 @@
 
 .body-product {
     background-color: #ffffff;
-    margin-top: 20%;
-    width: 50px;
+    margin-top: 21%;
+    width: 100%;
     display: flex;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
@@ -15,17 +15,24 @@
 .photos {
     display: flex;
     flex-direction: column;
+    margin-left: 3%;
 }
 
 .photos img {
-    width: 75px;
+    width: 98px;
     margin-left: 12%;
     margin-bottom: 8%;
+    margin-top: 10%;
 }
 
 .photo-icon img {
-    margin-left: 2%;
-    width: 199px;
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 300px;
+}
+
+h2{
+    font-size: 40px;
 }
 
 .price {
@@ -44,12 +51,19 @@ p {
 }
 
 .selected-quantities {
-    margin-top: -5%;
+    margin-top: -1%;
+    margin-left: -39%;
+   
+}
+.selected-quantities p {
+ font-size: 25px;
+   
 }
 
 p input {
+    height: auto;
     margin-top: -25px;
-    width: 32px;
+    width: 38px;
     height: 25px;
     color: #ffffff;
     background-color: black;
@@ -81,10 +95,16 @@ p input {
   
 }
 
-.barr {
+i{
+    margin-left: 50%;
+ 
+}
+
+
+.bar {
     background-color: #d9d9d9;
-    width: 20px;
-    margin-left: 15%;
+    width: 50px;
+    margin-left: 1%;
 }
 
 @media (max-width: 400px) {}

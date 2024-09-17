@@ -1,25 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+.align {
+    display: flex;
+    flex-direction: row;
+}
+
+.bar {
+    background-color: #d9d9d9;
+    height: 100%;
+    width: 1%;
+    margin-left: 20%;
+    color: #d9d9d9;
+  
+}
+
 .body-product {
     background-color: #ffffff;
     margin-top: 21%;
-    width: 100%;
+    width: 98%;
     display: flex;
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     margin-bottom: 1%;
+    margin-left: 1%;
 }
 
 .photos {
     display: flex;
     flex-direction: column;
-    margin-left: 3%;
+    margin-left: 22%;
 }
 
 .photos img {
-    width: 98px;
+    width: 120px;
     margin-left: 12%;
     margin-bottom: 8%;
     margin-top: 10%;
@@ -27,20 +42,21 @@
 
 .photo-icon img {
     margin-top: 3%;
-    margin-left: 3%;
-    width: 300px;
+    margin-left: 11%;
+    width: 410px;
 }
 
-h2{
+h2 {
     font-size: 40px;
+    margin-left: 30%;
 }
 
 .price {
     font-weight: bold;
     color: #317904;
-    font-size: 30px;
+    font-size: 42px;
     margin-top: 0;
-    margin-left: -25px;
+    margin-left: 24%;
 }
 
 p {
@@ -52,12 +68,13 @@ p {
 
 .selected-quantities {
     margin-top: -1%;
-    margin-left: -39%;
-   
+    margin-left: -19%;
+
 }
+
 .selected-quantities p {
- font-size: 25px;
-   
+    font-size: 25px;
+
 }
 
 p input {
@@ -84,28 +101,28 @@ p input {
 }
 
 .log-marca img {
-    width: 50px;
+    width: 35px;
+   
+    margin-left: 0.15%;
+    margin: 0%;
 }
 
-.button-comprar{
+.button-comprar {
     margin-left: 30%;
 }
-.button-comprar img:hover{
-   transform: scale(1.1);
-  
+
+.button-comprar img:hover {
+    transform: scale(1.1);
+
 }
 
-i{
-    margin-left: 50%;
- 
+i {
+    margin-top: 1%;
+    margin-left: 35%;
+    position: absolute;
+    font-size: 80px;
 }
 
-
-.bar {
-    background-color: #d9d9d9;
-    width: 50px;
-    margin-left: 1%;
-}
 
 @media (max-width: 400px) {}
 

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 .align {
     display: flex;
@@ -6,13 +8,14 @@
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-style: normal;
+
 }
 
 .bar {
-    background-color: #d9d9d9;
+    background-color: #ff0000;
     height: 100%;
     width: 1%;
-    margin-left: 20%;
+    margin-left: -90%;
     color: #d9d9d9;
 
 }
@@ -130,6 +133,7 @@ i {
     margin-left: 40%;
     margin-top: -53%;
     position: absolute;
+    max-width: 300%;
 
 }
 
@@ -200,19 +204,59 @@ option {
 
 .line {
     background-color: #d9d9d9;
-    width: 131%;
+    width: 105%;
     color: #d9d9d910;
     height: 8px;
     border-radius: 40%;
-    margin-left: 22%;
-    margin-top: 20%;
+    margin-left: 9%;
+    margin-top: 10%;
 
+}
+
+.more-seller {
+    margin-left: 10%;
+    margin-top: 0%;
+    width: 100%;
+}
+
+.exhibition-seller {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.more-seller p {
+    margin-left: 40%;
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+width: 100%;
+
+}
+
+.exhibition p{
+    margin-top: 9%;
+    margin-left: 2%;
 }
 
 .exhibition {
     background-color: #d9d9d9;
     display: flex;
     flex-direction: row;
+    margin-left: 10%;
+    width: 410px;
+    margin-left: 15px;
+}
+
+
+.exhibition:hover {
+    border: 2px solid rgba(0, 0, 0, 0.781);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.247);
 }
 
 .exhibition img {
@@ -231,6 +275,7 @@ option {
 
 }
 
+
 @media (max-width: 400px) {}
 
 @media (max-width: 768px) {}
@@ -246,3 +291,27 @@ option {
 
     }
 }
+
+@media (max-width: 320px) {
+    /* Estilos para telas de até 320px */
+  }
+  
+  /* Telefones médios */
+  @media (max-width: 480px) {
+    /* Estilos para telas de até 480px */
+  }
+  
+  /* Tablets e dispositivos médios */
+  @media (max-width: 768px) {
+    /* Estilos para telas de até 768px */
+  }
+  
+  /* Laptops e desktops */
+  @media (max-width: 1024px) {
+    /* Estilos para telas de até 1024px */
+  }
+  
+  /* Desktops grandes */
+  @media (min-width: 1440px) {
+    /* Estilos para telas maiores que 1440px */
+  }

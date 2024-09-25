@@ -1,58 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
-
 .category {
     background-color: #ffffffbd;
-    margin-top: 25%;
-    width: 900px;
+    margin-top: 20%;
+    width: 80%; /* Usar porcentagem para responsividade */
+    max-width: 900px; /* Limite máximo */
     align-items: center;
     text-align: center;
-    margin-left: 28%;
-    height: 190px;
-    margin-top: 19%;
-
+    margin-left: auto; /* Centralizar horizontalmente */
+    margin-right: auto;
+    height: auto; /* Remover altura fixa */
+    margin-bottom: 1%;
 }
 
 .grid-size {
     display: flex;
-    flex-direction: row;
-    margin: 10%;
-    margin-top: 0%;
-
+    flex-wrap: wrap; 
+    margin: 1%;
+    justify-content: center; /* Centralizar itens */
 }
 
-.grid1 {
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
     background-color: #f7be0488;
-    width: 800px;
-}
-
-.grid2 {
-    background-color: #f7be0488;
-    width: 800px;
-    margin-left: 5%;
-}
-
-.grid3 {
-    background-color: #f7be0488;
-    width: 800px;
-    margin-left: 5%;
-}
-
-.grid4 {
-    background-color: #f7be0488;
-    width: 800px;
-    margin-left: 5%;
-}
-
-.grid5 {
-    background-color: #f7be0488;
-    width: 800px;
-    margin-left: 5%;
-}
-
-.grid6 {
-    background-color: #f7be0488;
-    width: 800px;
-    margin-left: 5%;
+    width: calc(15.33% - 1px); /* 3 itens por linha com espaçamento */
+    margin: 5px; /* Margem entre os itens */
 }
 
 .grid-size img {
@@ -70,8 +39,6 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
-
-
 a {
     color: #03030000;
 }
@@ -80,47 +47,26 @@ h2 {
     font-family: "Baskervville", serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 35PX;
+    font-size: 35px; /* Corrigir 'PX' para 'px' */
 }
-
-
 
 @media (max-width: 768px) {
-    .container {
-        max-width: 20px;
-    }
-}
-
-
-@media (max-width: 992px) {
-    .container {
-        max-width: 970px;
-    }
-}
-
-@media (max-width: 1633px) {
     .category {
-        margin-top: 22%;
-        max-width: 880px;
-        max-height: 150px;
-        margin-bottom: 2%;
-        margin-left: 22%;
+        width: 90%; /* Ajustar largura em telas menores */
     }
 
-    .grid-size {
-        margin-left: 5.5%;
+    .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+        width: calc(50% - 10px); /* 2 itens por linha */
+    }
+}
+
+@media (max-width: 480px) {
+    .category {
+       margin-top: 35%;
+        width: 90%; /* Usar toda a largura em telas muito pequenas */
     }
 
-    .grid1,
-    .grid2,
-    .grid3,
-    .grid4,
-    .grid5,
-    .grid6 {
-        min-width: 100px;
-
+    .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
+        width: 25%; 
     }
-
-
-
 }

@@ -343,7 +343,7 @@ a {
 }
 
 @media (max-width: 320px) {
-    /* Estilos para telas de até 320px */
+  
 }
 
 /* Telefones médios */
@@ -358,36 +358,93 @@ a {
 
 /* Laptops e desktops */
 @media (max-width: 1635px) {
-    .body-product {}
+    .body-product {
+        margin-top: 23%;
+    }
 
     .exhibition p {
         font-size: 20px;
+      
     }
-    .more-seller p{
-        margin-left: 0%;
+
+    .more-seller p {
+        margin-left: 53%;
+        max-width: 28%;
+        text-align: center;
     }
-.more-seller{
-    width: 80%;
-}
+
+    .more-seller {
+        width: 80%;
+    }
+    .quantities-total{
+        margin-top: 3%;
+    }
+    .color-select select{
+        margin-left: -111px;
+        max-width: 30%;
+        
+    }
+
+    .color-select{
+        margin-top: 4%;
+    }
+
+    a {
+        margin-left: -5%;
+    }
+
     .exhibition {
-        font-display: flex;
-        margin-left: 30%;
-        flex-direction: column;
-        width: 50%;
+
+        width: 80%;
+        height: 120%;
+        padding-top: 0%;
+        align-items: center;
+    }
+
+    .size-clothing {
+        margin-left: 20%;
+    }
+
+    .align-info {
+        margin-top: -13px;
+        margin-left: -11%;
+    }
+
+    .align-info .price {
+        font-size: 22px;
     }
 
     .line {
-        width: 70%;
-        margin-left: 9%;
+        width: 65%;
+        margin-left: 29%;
     }
 
     .size-clothing {
         margin-top: -66%;
     }
 
+    .bar {
+        margin-left: 10%;
+    }
+
     .exhibition-seller {
-        max-width: 250%;
-        padding-left: 10%;
+        max-width: 80%;
+        padding-left: 3%;
+        margin-left: 26%;
+    }
+
+    .question-seller {
+        max-width: 65%;
+        margin-left: 30%;
+    }
+
+    .doubt p {
+        margin-left: 32%;
+    }
+
+    .button-comprar img {
+        margin-left: -10%;
+
     }
 
     .more-seller {
@@ -396,8 +453,8 @@ a {
     }
 
     .exhibition img {
-        margin-top: -10px;
-        width: 80%;
+        margin-top: -15px;
+        width: 50%;
 
     }
 

@@ -83,11 +83,7 @@ h2 {
     font-size: 35PX;
 }
 
-@media (max-width: 400px) {
-    .category {
-        width: 20px;
-    }
-}
+
 
 @media (max-width: 768px) {
     .container {

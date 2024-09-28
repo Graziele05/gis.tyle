@@ -65,11 +65,18 @@ a {
 
 @media (max-width: 480px) {
     .category {
-       margin-top: 35%;
+       margin-top: 25%;
         width: 90%; 
     }
 
     .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
         width: 25%; 
     }
+}
+@media (max-width: 1666px) {
+    .category {
+        margin-top: 21.30%;
+    }
+
+
 }

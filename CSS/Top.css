@@ -129,7 +129,8 @@
 
     .topo {
         max-height: 400px;
-        min-width: 210%;
+        min-width: 235%;
+        margin-bottom: 0%;
     }
 
     .search-bar input {
@@ -196,6 +197,14 @@
         /* Ocultar as barras em telas menores */
     }
 }
+
+
+@media (max-width: 1400px) {
+    .barra,.barra2{
+        display: none;
+    }
+}
+
 
 @media (max-width: 1633px) {
     .container {

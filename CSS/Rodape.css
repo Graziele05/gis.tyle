@@ -1,6 +1,6 @@
 
 .rodape {
-    background-color: #ffffff;
+    background-color: #f8fafc;
     padding: 40px 20px;
     font-family: Arial, sans-serif;
     font-style: italic;
@@ -101,7 +101,7 @@
 
     .rodape{
         padding: 0%;
-        min-width: 180%;
+        min-width: 198%;
         margin-bottom: 0%;
     }
 }

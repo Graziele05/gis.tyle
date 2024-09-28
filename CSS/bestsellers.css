@@ -1,17 +1,13 @@
-@font-face {
-    font-family: 'Newt Serif';
-    src: url('/Public/Font/newt-serif/NewtSerif-Italic.otf') format('opentype');
-}
 
 .fundo {
     margin: 0;
     padding: 0;
-    background-color: #000000;
-    font-family: 'Newt Serif', serif;
+    background-color: #f3f4f6;
+    font-family:Arial;
 }
 
 .gallery-container h2 {
-    color: #eee;
+    color: #000000;
 }
 
 .gallery-container {
@@ -21,13 +17,13 @@
     text-align: center;
 }
 
-h1 {
+.gallery-container h2{
     margin-bottom: 20px;
+   color: #ffffffbd;
 }
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
@@ -37,7 +33,7 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 200px;
+    width: 400px;
     text-align: center;
     text-decoration: none;
     color: inherit;
@@ -47,6 +43,11 @@ h1 {
 .gallery-item:hover {
     box-shadow: 0 13px 16px rgba(0, 0, 0, 0.637);
     transform: scale(1.1);
+}
+
+.title-best p  {
+    font-size: 35px;
+    margin-bottom: 2%;
 }
 
 .gallery-item img {

@@ -1,13 +1,13 @@
 .category {
-    background-color: #ffffffbd;
+    background-color: #f3f4f6;
     margin-top: 20%;
-    width: 80%; /* Usar porcentagem para responsividade */
-    max-width: 900px; /* Limite máximo */
+    width: 80%; 
+    max-width: 900px;
     align-items: center;
     text-align: center;
-    margin-left: auto; /* Centralizar horizontalmente */
+    margin-left: auto; 
     margin-right: auto;
-    height: auto; /* Remover altura fixa */
+    height: auto; 
     margin-bottom: 1%;
 }
 
@@ -15,13 +15,15 @@
     display: flex;
     flex-wrap: wrap; 
     margin: 1%;
-    justify-content: center; /* Centralizar itens */
+    justify-content: center; 
 }
 
 .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
-    background-color: #f7be0488;
-    width: calc(15.33% - 1px); /* 3 itens por linha com espaçamento */
-    margin: 5px; /* Margem entre os itens */
+    background-color: #cbd5e1;
+    width: calc(12.33% - 1px); 
+    margin: 5px; 
+    margin-bottom: 5%;
+
 }
 
 .grid-size img {
@@ -43,27 +45,28 @@ a {
     color: #03030000;
 }
 
-h2 {
+.category h2 {
     font-family: "Baskervville", serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 35px; /* Corrigir 'PX' para 'px' */
+    font-size: 35px; 
+    color: black;
 }
 
 @media (max-width: 768px) {
     .category {
-        width: 90%; /* Ajustar largura em telas menores */
+        width: 90%;
     }
 
     .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {
-        width: calc(50% - 10px); /* 2 itens por linha */
+        width: calc(50% - 10px); 
     }
 }
 
 @media (max-width: 480px) {
     .category {
        margin-top: 35%;
-        width: 90%; /* Usar toda a largura em telas muito pequenas */
+        width: 90%; 
     }
 
     .grid1, .grid2, .grid3, .grid4, .grid5, .grid6 {

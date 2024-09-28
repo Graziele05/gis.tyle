@@ -12,6 +12,7 @@
     font-family: 'Newt Serif', serif;
     margin: 0;
     padding: 0;
+    margin-top: 3%;
 }
 
 .gallery-container h2 {
@@ -32,17 +33,17 @@ h1 {
 .exhibition {
     display: flex;
     flex-wrap: wrap;
-    /* Permite que os itens quebrem para a próxima linha */
     gap: 20px;
     justify-content: center;
+
 }
 
 .exhibition-item {
-    background: white;
+    background: #eef1f7;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: calc(100% / 7 - 20px);
+    width: calc(100% / 5 - 120px);
     text-align: center;
     text-decoration: none;
     color: inherit;
